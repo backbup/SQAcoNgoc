@@ -1,0 +1,141 @@
+{
+  "module": "SQA Checklist - Tính đúng đắn",
+  "groupTitle": "Tinh nang Tính đúng đắn",
+  "testcases": [
+    {
+      "id": "TC_CD_TBL_001",
+      "name": "Độ tin cậy bảng quy đổi điểm TOEIC",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SCR_001",
+      "name": "Quy đổi Listening theo bảng",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SCR_002",
+      "name": "Quy đổi Reading theo bảng",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SCR_003",
+      "name": "Tính tổng điểm + phần trăm",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SCR_004",
+      "name": "Giới hạn raw score vượt 100",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SCR_005",
+      "name": "Giới hạn raw score âm",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_001",
+      "name": "Bắt đầu attempt hợp lệ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_002",
+      "name": "Bắt đầu attempt khi exam không tồn tại",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_003",
+      "name": "PRACTICE_BY_PART thiếu Parts",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_004",
+      "name": "PRACTICE_BY_PART có part không hợp lệ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_005",
+      "name": "Nộp bài: không cho nộp attempt của người khác",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_006",
+      "name": "Nộp bài: chặn nộp 2 lần",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_007",
+      "name": "Nộp bài: vượt time limit (có grace 1 phút)",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_ATT_008",
+      "name": "Nộp bài thành công → gọi grading repository",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_UIMAP_001",
+      "name": "Mapping số câu global trong khu làm bài",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_UIMAP_002",
+      "name": "Mapping số câu global ở sidebar (bug tiềm ẩn)",
+      "result": "Fail"
+    },
+    {
+      "id": "TC_CD_SUBMIT_001",
+      "name": "Payload nộp bài đúng thứ tự exam.Questions",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_SUBMIT_002",
+      "name": "Câu chưa chọn → ChoiceID null",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_LP_001",
+      "name": "Tính hoàn thành bài học: chưa đủ % xem",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_LP_002",
+      "name": "Tính hoàn thành bài học: đủ % + không có exercise",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_LP_003",
+      "name": "Tính hoàn thành bài học: đủ % nhưng thiếu exercise done",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_EXAM_001",
+      "name": "Tạo đề thi: title trống",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_EXAM_002",
+      "name": "Tạo đề thi: TimeExam ngoài khoảng",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_EXAM_003",
+      "name": "Gán câu hỏi không tồn tại",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_CD_AUTH_001",
+      "name": "Đăng nhập đúng/sai (unit tầng service/controller)",
+      "result": "Pending"
+    },
+    {
+      "id": "TC_CD_ROLE_001",
+      "name": "Phân quyền route admin",
+      "result": "Pending"
+    },
+    {
+      "id": "TC_CD_SEARCH_001",
+      "name": "Tìm kiếm/lọc khóa học đúng điều kiện",
+      "result": "Pending"
+    }
+  ]
+}

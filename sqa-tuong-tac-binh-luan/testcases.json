@@ -1,0 +1,96 @@
+{
+  "module": "SQA Checklist - Tương tác/Bình luận",
+  "groupTitle": "Tinh nang Tương tác/Bình luận",
+  "testcases": [
+    {
+      "id": "TC_ITC_UI_001",
+      "name": "Hiển thị khu vực bình luận",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_UI_002",
+      "name": "Hiển thị thông tin từng bình luận",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_UI_003",
+      "name": "Tạo cây reply lồng nhau",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_ADD_001",
+      "name": "Đăng bình luận hợp lệ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_ADD_002",
+      "name": "Đăng bình luận trống",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_ADD_003",
+      "name": "Đăng >1000 ký tự",
+      "result": "Fail"
+    },
+    {
+      "id": "TC_ITC_ADD_004",
+      "name": "Gửi comment thành công gọi API",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_ADD_005",
+      "name": "Gửi reply comment",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_AUTH_001",
+      "name": "Quyền sửa/xóa theo chủ sở hữu",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_AUTH_002",
+      "name": "Không hiện nút Sửa khi không phải chủ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_EDIT_001",
+      "name": "Mở modal chỉnh sửa",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_EDIT_002",
+      "name": "Lưu chỉnh sửa hợp lệ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_EDIT_003",
+      "name": "Hủy chỉnh sửa",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_EDIT_004",
+      "name": "Chỉnh sửa nội dung rỗng",
+      "result": "Fail"
+    },
+    {
+      "id": "TC_ITC_DEL_001",
+      "name": "Xóa comment xác nhận Yes",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_DEL_002",
+      "name": "Xóa comment nhưng không xác định user",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_ITC_DEL_003",
+      "name": "Hiển thị nút Xóa của owner",
+      "result": "Fail"
+    },
+    {
+      "id": "TC_ITC_RATE_001",
+      "name": "Rate limit gửi liên tục",
+      "result": "Fail"
+    }
+  ]
+}

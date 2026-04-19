@@ -1,0 +1,46 @@
+{
+  "module": "SQA Checklist - Tính khả dụng",
+  "groupTitle": "Tinh nang Tính khả dụng",
+  "testcases": [
+    {
+      "id": "TC_KD_LOGIN_001",
+      "name": "Luồng đăng nhập dễ hoàn tất",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_NAV_001",
+      "name": "Điều hướng rõ ràng",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_FORM_001",
+      "name": "Thông báo lỗi form dễ hiểu",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_A11Y_001",
+      "name": "Khả năng đọc — contrast cơ bản",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_RESP_001",
+      "name": "Responsive — layout không vỡ",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_CTA_001",
+      "name": "Nút quan trọng dễ tìm",
+      "result": "Pass"
+    },
+    {
+      "id": "TC_KD_EXIT_001",
+      "name": "Tránh thao tác nguy hiểm — rời trang khi đang làm bài",
+      "result": "Pending"
+    },
+    {
+      "id": "TC_KD_LOAD_001",
+      "name": "Phản hồi UI — trạng thái chờ",
+      "result": "Pass"
+    }
+  ]
+}
